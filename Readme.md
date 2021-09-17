@@ -1,4 +1,5 @@
 
+
 # Profit/Loss Calculator
 
 We have successfully implemented a Profit /Loss Sales calculation program, Where user can upload an excel file which will be having all the values. And our program will calculate
@@ -39,19 +40,19 @@ To install the following Softwares run
 Hemant Mistry
 
 - [Github](https://github.com/Duality-afk)
-- [Linkedin](www.linkedin.com/in/hemant-mistry-2822641a7)
+- www.linkedin.com/in/hemant-mistry-2822641a7
 
 Hitanshu Parekh
 
 - [Github](https://github.com/hparekh72)
-- [Linkedin]()
+- 
   
 Vishakha
 
 - [Github](https://choosealicense.com/licenses/mit/)
-- [Linkedin]()
+- 
 
 Asik
 
 - [Github](https://choosealicense.com/licenses/mit/)
-- [Linkedin]()
+- 
