@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <title>Sales Calculation</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">SalesCalculator</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+              </li>
+            </ul> -->
+            </div>
+        </div>
+    </nav>
+     {% if something %}
+        <div class="container my-5">
+        <h1 class="text-center my-5">Profit/Loss Sales Calculation</h1>
+        {% if profit > 0 %}
+        <h3 style="color:green">Profit = ₹{{profit}}</h3>
+        {% else %}
+        <h3 style="color:red">Loss = ₹{{loss}}</h3>
+    </div>
+    {% endif %}
+
+    <div class="container">
+        <div class="row">
+            <div class="col-4">
+                <h4>Item Description</h4>
+                <hr>
+                {% for item in items %}
+                <h6>{{item}}</h6>
+                {% endfor %}
+            </div>
+            <div class="col-4">
+                <h4>Selling Price</h4>
+                <hr>
+                {% for item in sellingp %}
+                <h6>Rs. {{item}}</h6>
+                {% endfor %}
+            </div>
+            <div class="col-4">
+                <h4>Cost Price</h4>
+                <hr>
+                {% for item in costp %}
+                <h6>Rs. {{item}}</h6>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+    <br><br>
+    {% else %}
+        <div class="container my-5">
+        <h1 class="text-center my-5">Welcome to Profit/Loss Sales Calculator</h1>
+        <center><h3><a href="/upload" style="text-decoration: none;"> Click here to upload a csv file</a></h3></center>
+    {% endif %}
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
