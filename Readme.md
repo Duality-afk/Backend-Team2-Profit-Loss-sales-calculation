@@ -45,7 +45,7 @@ Hemant Mistry
 Hitanshu Parekh
 
 - [Github](https://github.com/hparekh72)
-- 
+- https://www.linkedin.com/in/hitanshu-parekh-94a46018b/
   
 Vishakha
 
