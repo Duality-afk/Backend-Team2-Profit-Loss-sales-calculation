@@ -52,7 +52,7 @@ Vishakha
 - [Github](https://choosealicense.com/licenses/mit/)
 - 
 
-Asik
+Ashik Prakash
 
-- [Github](https://choosealicense.com/licenses/mit/)
-- 
+- [Github](https://github.com/ashikprakash18)
+- https://www.linkedin.com/in/ashik-prakash-2000/
