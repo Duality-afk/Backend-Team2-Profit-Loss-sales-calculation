@@ -50,7 +50,7 @@ Hitanshu Parekh
 Vishakha
 
 - [Github](https://choosealicense.com/licenses/mit/)
-- 
+- https://www.linkedin.com/in/vishakha-mistry-63b6351ab/
 
 Ashik Prakash
 
